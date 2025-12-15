@@ -1,5 +1,4 @@
-# Prediksi Cuaca dan Potensi Banjir di Kota Medan Menggunakan CatBoost dan LSTM
-Projek ini adalah penelitian yang dikerjakan oleh Filbert Leonardo (200416004) sebagai bagian dari persyaratan untuk menyelesaikan program studi dan mendapatkan gelar Sarjana Komputer di jurusan Sistem Informasi, Universitas Sari Mutiara Indonesia.
+# Prediksi Cuaca dan Potensi Banjir di Kabupaten Pasuruan Menggunakan LSTM dan XGBoost
 
 ## Table of Contents
 - [Tentang Aplikasi](#tentang_aplikasi)
@@ -35,11 +34,11 @@ Dashboard ini memungkinkan pengguna untuk:
 ## Instalasi
 1. Clone repository ini.
     ```bash
-    git clone https://github.com/filbertleo88/Skripsi-Prediksi-Cuaca-Dan-Potensi-Banjir-Kota-Medan.git
+    git clone https://github.com/reyhanfisena/prediksi-cuaca-dan-banjir-pasuruan.git
     ```
 2. Masuk ke direktori proyek.
     ```bash
-    cd Skripsi-Prediksi-Cuaca-Dan-Potensi-Banjir-Kota-Medan
+    cd prediksi-cuaca-dan-banjir-pasuruan
     ```
 3. Instal dependencies.
     ```bash
@@ -55,13 +54,13 @@ Dashboard ini memungkinkan pengguna untuk:
 
 ## Sumber Data
 - Dataset Cuaca: [Data Online BMKG](https://dataonline.bmkg.go.id/home)
-- Dataset Bencana: [Geoportal Data Bencana Indonesia BNPB](https://gis.bnpb.go.id/)
+- Dataset Bencana: [SMART_PB Log Kejadian BPBD Jawa Timur](https://smartpb.bpbd.jatimprov.go.id//)
 
-## Pembuatan Model Prediksi [![Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1w15YdHEOq1vsbp6qQOPjFzWweW-2P_q5?usp=sharing)
+## Pembuatan Model Prediksi
 - Model prediksi cuaca menggunakan LSTM dikembangkan untuk mengidentifikasi pola cuaca berdasarkan data historis.
-- Model prediksi potensi banjir menggunakan CatBoost dikembangkan untuk memprediksi kemungkinan terjadinya banjir berdasarkan kondisi cuaca.
+- Model prediksi potensi banjir menggunakan XGBoost dikembangkan untuk memprediksi kemungkinan terjadinya banjir berdasarkan kondisi cuaca.
 
-## Dashboard [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://prediksi-cuaca-dan-banjir-kota-medan.streamlit.app/)
+## Dashboard [![Streamlit App]
 Dashboard ini dibuat dengan Streamlit untuk menyediakan antarmuka yang interaktif dan mudah digunakan.
 
 Dengan adanya dashboard ini, diharapkan dapat membantu masyarakat dan pemerintah setempat dalam memitigasi risiko banjir dan mempersiapkan diri terhadap kondisi cuaca ekstrem.
